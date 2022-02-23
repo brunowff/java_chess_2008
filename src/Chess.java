@@ -19,7 +19,7 @@ class Acoes extends WindowAdapter {
 
 // --------------------------------------class principal
 public class Chess extends JFrame {
-    private static final long serialVersionUID = 7526471155622776147L;
+    private static final long serialVersionUID = 447744L;
     private final Joga conteudo = new Joga();
     private JMenuBar menu = new JMenuBar();
 
@@ -116,7 +116,7 @@ public class Chess extends JFrame {
 
 // ----------------------------------------------------------------nova class
 class Joga extends JPanel {
-    private static final long serialVersionUID = 7526471155622776147L;
+    private static final long serialVersionUID = 44774477L;
     private static String matriz[][][] = new String[12][12][2];
     protected Cliente evt;
     private int x;
